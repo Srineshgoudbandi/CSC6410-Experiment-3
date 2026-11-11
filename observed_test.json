@@ -1,0 +1,55 @@
+{
+  "student-host:host": {
+    "hostname": "Srinesh",
+    "os": "windows",
+    "collected-at": "2026-11-11T14:15:31-06:00",
+    "interface": [
+      {
+        "name": "vEthernet (WSL (Hyper-V firewall))",
+        "type": "virtual",
+        "oper-status": "up",
+        "mac": "00:15:5d:10:d9:82",
+        "mtu": "invalid",
+        "ipv4": [
+          "172.20.48.1/20"
+        ],
+        "ipv6": [
+          "fe80::8e47:6968:913d:144d%37/64"
+        ]
+      },
+      {
+        "name": "Ethernet 2",
+        "type": "virtual",
+        "oper-status": "up",
+        "mac": "0a:00:27:00:00:0c",
+        "mtu": 1500,
+        "ipv4": [
+          "192.168.56.1/24"
+        ],
+        "ipv6": [
+          "fe80::dd1a:99cc:b44b:7d1f%12/64"
+        ]
+      },
+      {
+        "name": "Wi-Fi",
+        "type": "wifi",
+        "oper-status": "up",
+        "mac": "c0:35:32:4b:d4:3f",
+        "mtu": 1500,
+        "ipv4": [
+          "192.168.1.123/24"
+        ],
+        "ipv6": [
+          "fe80::c3dc:dfc0:5c9c:d4ef%4/64",
+          "2603:6000:b500:29e1:c567:ae4e:4404:4c80/128",
+          "2603:6000:b500:29e1:8f65:1688:a428:bc44/64",
+          "2603:6000:b500:29e1::1472/128"
+        ]
+      }
+    ],
+    "default-gateway": "192.168.1.1",
+    "dns-server": [
+      "192.168.1.1"
+    ]
+  }
+}
